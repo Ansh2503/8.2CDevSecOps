@@ -1,0 +1,1 @@
+Jenkins automatic trigger test for SIT223 7.1C
