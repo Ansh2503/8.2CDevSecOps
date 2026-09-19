@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         NODE_HOME = '/opt/homebrew/opt/node@18/bin'
+        PATH = '/opt/homebrew/opt/node@18/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin'
         IMAGE_NAME = 'nodejs-goof'
         TEST_CONTAINER = 'nodejs-goof-test'
         TEST_DATABASE = 'nodejs-goof-test-mongo'
